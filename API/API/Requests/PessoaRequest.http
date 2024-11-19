@@ -1,0 +1,26 @@
+### GET
+GET http://localhost:5238/pessoas
+
+### GET{ID}
+GET http://localhost:5238/pessoas/2
+
+### POST
+POST http://localhost:5238/pessoas
+Content-Type: application/json
+
+{
+    "nome": "Memphis",
+    "idade": 30
+}
+
+### PUT /pessoas/{id}
+PUT http://localhost:5238/pessoas/4
+Content-Type: application/json
+
+{
+    "Nome": "Cassio",
+    "Idade": 3676767
+}
+
+###DELETE /pessoas/{id}
+DELETE http://localhost:5238/pessoas/4
